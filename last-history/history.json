@@ -1,0 +1,145 @@
+{
+  "6c5e4728d27ca5f06be0153a1dac5c1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "168c96dda26cb227",
+      "reportUrl" : "https://allure-examples.github.io/allure-cucumber5-junit4-gradle/1//#testresult/168c96dda26cb227",
+      "status" : "broken",
+      "statusDetails" : "Element not found for xpath [//div[@class='something']]",
+      "time" : {
+        "start" : 1598459528143,
+        "stop" : 1598459528147,
+        "duration" : 4
+      }
+    } ]
+  },
+  "e509c4c6de4e5cecb9d9ec918f3c625b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "953f236c2532a3a8",
+      "reportUrl" : "https://allure-examples.github.io/allure-cucumber5-junit4-gradle/1//#testresult/953f236c2532a3a8",
+      "status" : "broken",
+      "statusDetails" : "Element not found for xpath [//div[@class='something']]",
+      "time" : {
+        "start" : 1598459528123,
+        "stop" : 1598459528135,
+        "duration" : 12
+      }
+    } ]
+  },
+  "843df6f6ac7f645bb7d612a7c4fd9f67" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7e87f2f8df55fd68",
+      "reportUrl" : "https://allure-examples.github.io/allure-cucumber5-junit4-gradle/1//#testresult/7e87f2f8df55fd68",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598459528101,
+        "stop" : 1598459528111,
+        "duration" : 10
+      }
+    } ]
+  },
+  "f7ef8eb5326a2d8a0890ddf96abebd29" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "71e71c0e9484ea66",
+      "reportUrl" : "https://allure-examples.github.io/allure-cucumber5-junit4-gradle/1//#testresult/71e71c0e9484ea66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598459528211,
+        "stop" : 1598459528217,
+        "duration" : 6
+      }
+    } ]
+  },
+  "3b99172849a956d077462dbdc8532625" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6b76f1b59a4aa34b",
+      "reportUrl" : "https://allure-examples.github.io/allure-cucumber5-junit4-gradle/1//#testresult/6b76f1b59a4aa34b",
+      "status" : "broken",
+      "statusDetails" : "Element not found for xpath [//div[@class='something']]",
+      "time" : {
+        "start" : 1598459528152,
+        "stop" : 1598459528161,
+        "duration" : 9
+      }
+    } ]
+  },
+  "f9c66bf9ddd19869dacb865700c9ee29" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6333dcaf8dac65a2",
+      "reportUrl" : "https://allure-examples.github.io/allure-cucumber5-junit4-gradle/1//#testresult/6333dcaf8dac65a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598459528004,
+        "stop" : 1598459528019,
+        "duration" : 15
+      }
+    } ]
+  },
+  "6ed04ace1f8de16088dbfd2c50967145" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aff067993bf63f2",
+      "reportUrl" : "https://allure-examples.github.io/allure-cucumber5-junit4-gradle/1//#testresult/aff067993bf63f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598459528172,
+        "stop" : 1598459528175,
+        "duration" : 3
+      }
+    } ]
+  }
+}

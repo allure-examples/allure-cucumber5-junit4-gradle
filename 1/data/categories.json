@@ -1,0 +1,52 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Element not found for xpath [//div[@class='something']]",
+      "children" : [ {
+        "name" : "Create new label for authorized user",
+        "uid" : "953f236c2532a3a8",
+        "parentUid" : "e9129cb4ed11ae45600e3972efb23172",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598459528123,
+          "stop" : 1598459528135,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add label to existing issue for authorized user",
+        "uid" : "168c96dda26cb227",
+        "parentUid" : "e9129cb4ed11ae45600e3972efb23172",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598459528143,
+          "stop" : 1598459528147,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Delete existing label for authorized user",
+        "uid" : "6b76f1b59a4aa34b",
+        "parentUid" : "e9129cb4ed11ae45600e3972efb23172",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598459528152,
+          "stop" : 1598459528161,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e9129cb4ed11ae45600e3972efb23172"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
