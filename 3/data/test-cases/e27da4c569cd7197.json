@@ -1,0 +1,166 @@
+{
+  "uid" : "e27da4c569cd7197",
+  "name" : "Delete existing label for authorized user",
+  "fullName" : "Labels: Delete existing label for authorized user",
+  "historyId" : "3b99172849a956d077462dbdc8532625",
+  "time" : {
+    "start" : 1602556442554,
+    "stop" : 1602556444560,
+    "duration" : 2006
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When  I open labels page",
+      "time" : {
+        "start" : 1602556442554,
+        "stop" : 1602556442554,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I create label with title \"hello\"",
+      "time" : {
+        "start" : 1602556442555,
+        "stop" : 1602556442556,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I delete label with title \"hello\"",
+      "time" : {
+        "start" : 1602556442557,
+        "stop" : 1602556443558,
+        "duration" : 1001
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I should not see note with content \"hello\"",
+      "time" : {
+        "start" : 1602556443558,
+        "stop" : 1602556444559,
+        "duration" : 1001
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "host",
+    "value" : "fv-az183"
+  }, {
+    "name" : "thread",
+    "value" : "4141@fv-az183.Test worker(9)"
+  }, {
+    "name" : "feature",
+    "value" : "Labels"
+  }, {
+    "name" : "story",
+    "value" : "Delete existing label for authorized user"
+  }, {
+    "name" : "suite",
+    "value" : "Labels"
+  }, {
+    "name" : "testClass",
+    "value" : "Delete existing label for authorized user"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/runner/work/allure-cucumber5-junit4-gradle/allure-cucumber5-junit4-gradle/src/test/resources/features/labels-web.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.labels-web_feature.Labels"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "ad9dd479f40cd5ca",
+        "reportUrl" : "https://allure-examples.github.io/allure-cucumber5-junit4-gradle/2//#testresult/ad9dd479f40cd5ca",
+        "status" : "broken",
+        "statusDetails" : "Element not found for xpath [//div[@class='something']]",
+        "time" : {
+          "start" : 1601527583697,
+          "stop" : 1601527583712,
+          "duration" : 15
+        }
+      }, {
+        "uid" : "6b76f1b59a4aa34b",
+        "reportUrl" : "https://allure-examples.github.io/allure-cucumber5-junit4-gradle/1//#testresult/6b76f1b59a4aa34b",
+        "status" : "broken",
+        "statusDetails" : "Element not found for xpath [//div[@class='something']]",
+        "time" : {
+          "start" : 1598459528152,
+          "stop" : 1598459528161,
+          "duration" : 9
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "e27da4c569cd7197.json",
+  "parameterValues" : [ ]
+}
